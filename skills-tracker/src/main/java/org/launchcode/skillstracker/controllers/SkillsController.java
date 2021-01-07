@@ -33,25 +33,25 @@ public class SkillsController {
                 "<h2>My Favorite Language: </h2>"+
                 "<select name= 'language1'>" +
                      "<option value='language'>Select</option>" +
-                     "<option value='java'>Java</option>" +
-                     "<option value='javaScript'>JavaScript</option>" +
-                     "<option value='python'>Python</option>" +
+                     "<option value='Java'>Java</option>" +
+                     "<option value='JavaScript'>JavaScript</option>" +
+                     "<option value='Python'>Python</option>" +
                 "</select>"+
 
                 "<h2>My Second Favorite Language</h2>" +
                 "<select name='language2'>" +
                      "<option value='language'>Select</option>" +
-                     "<option value='java'>Java</option>" +
-                     "<option value='javaScript'>JavaScript</option>" +
-                     "<option value='python'>Python</option>"+
+                     "<option value='Java'>Java</option>" +
+                     "<option value='JavaScript'>JavaScript</option>" +
+                     "<option value='Python'>Python</option>"+
                 "</select>"+
 
                 "<h2>My Second Third Favorite Language</h2>" +
                 "<select name='language3'>" +
                     "<option value='language'>Select</option>" +
-                    "<option value='java'>Java</option>" +
-                    "<option value='javaScript'>JavaScript</option>" +
-                    "<option value='python'>Python</option>" +
+                    "<option value='Java'>Java</option>" +
+                    "<option value='JavaScript'>JavaScript</option>" +
+                    "<option value='Python'>Python</option>" +
                 "</select>" +
                 "<br>"+
                 "<input type='submit'/>"+
@@ -65,9 +65,9 @@ public class SkillsController {
                 "<body>" +
                 "<h1>Hello, " + name + "!</h1>" +
                 "<ol>" +
-                "<li>" + language1 + "</li>" +
-                "<li>" + language2+ "</li> " +
-                "<li>" + language3+ "</li> " +
+                    "<li>" + language1 + "</li>" +
+                    "<li>" + language2+ "</li> " +
+                    "<li>" + language3+ "</li> " +
                 "</ol>";
 
     }
