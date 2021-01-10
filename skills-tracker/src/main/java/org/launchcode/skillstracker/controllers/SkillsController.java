@@ -22,9 +22,12 @@ public class SkillsController {
                 "</html>";
     }
 
+
     @ResponseBody
+
     @GetMapping("form")
     public String form(){
+
         return "<html>"+
                 "<form method='post'>" +
                 "<h1>Name: </h1>"+
